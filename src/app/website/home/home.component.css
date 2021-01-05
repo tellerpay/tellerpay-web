@@ -1,0 +1,236 @@
+.container {
+    min-width: 90vw;
+}
+
+#home {
+    background: url('../../../assets/img/homebg2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+    height: 100vh;
+}
+
+#home-inner {
+    height: 100vh;
+    width: 98vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.flexible {
+    position: absolute;
+    top: 66vh;
+    right: 32vw;
+}
+
+.flexible img {
+    height: 280px;
+}
+
+#choose-us {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+#save-advance {
+    background: rgba(205, 159, 237, 0.05);
+    padding-bottom: 3em;
+}
+
+#tellersave {
+    background: url("../../../assets/img/girl.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 43%;
+    min-height: 100vh;
+    padding-top: 4em;
+}
+
+#tellersave .mid-image {
+    display: none;
+}
+
+#telleradvance {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('../../../assets/img/man2.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    margin-top: -14vh;
+}
+
+#purple-container {
+    background-color: #5C2682;
+}
+
+#purple-container .inner {
+    background: url("../../../assets/img/purple.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100% 100%;
+    min-height: 50vh;
+}
+
+#gethelp {
+    background-color: rgba(205, 159, 237, 0.05);
+}
+
+#gethelp .inner {
+    background: url("../../../assets/img/getbg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: 40%; */
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+
+@media(max-width:768px) {
+    #home {
+        background: unset;
+        background: rgba(205, 159, 237, 0.05);
+        clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+        height: 100vh;
+    }
+
+    #home-inner {
+        height: 110vh;
+        width: 98vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('../../../assets/img/small home.png');
+        background-repeat: no-repeat;
+        background-size: 58%;
+        background-position: right bottom;
+        display: unset;
+        align-items: unset;
+        padding-top: 6em;
+    }
+
+    #home-inner p {
+        text-align: center;
+    }
+
+    .flexible {
+        display: none;
+    }
+
+    #tellersave {
+        background: unset;
+        min-height: 100vh;
+        padding-bottom: 1em;
+    }
+
+    #tellersave .mid-image {
+        display: block;
+    }
+
+
+    #tellersave p,
+    #telleradvance p,
+    #tellerspokes p {
+        text-align: center;
+    }
+
+    #telleradvance {
+        min-height: 85vh;
+        display: unset;
+        align-items: unset;
+        background: none;
+        margin-top: unset;
+    }
+
+    #telleradvance img {
+        height: 250px;
+    }
+}
+
+@media(max-width: 450px) {
+    #home {
+        background: unset;
+        background: rgba(205, 159, 237, 0.05);
+        clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+        height: 90vh;
+    }
+
+    #home-inner {
+        height: 98vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('../../../assets/img/small home.png');
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: right bottom;
+        display: unset;
+        align-items: unset;
+        padding-top: 8em;
+    }
+
+    #home-inner p {
+        text-align: center;
+    }
+
+    .flexible {
+        display: none;
+    }
+
+    #tellerspokes p {
+        text-align: center;
+    }
+
+    #save-advance {
+        background: unset;
+    }
+
+    #tellersave {
+        background: url('../../../assets/img/tellersavesm.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-bottom: 1em;
+    }
+
+    #tellersave .mid-image {
+        display: none;
+    }
+
+    #tellersave p {
+        text-align: center;
+    }
+
+
+    #telleradvance {
+        min-height: 95vh;
+        display: unset;
+        align-items: unset;
+        background: none;
+        margin-top: unset;
+    }
+
+    #telleradvance img {
+        height: 250px;
+    }
+
+    #purple-container .inner {
+        background: url("../../../assets/img/purplesmall.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: cover;
+        min-height: 50vh;
+    }
+
+}
