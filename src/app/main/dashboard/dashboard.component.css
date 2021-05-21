@@ -1,0 +1,62 @@
+.dash-cards {
+    border-radius: 5px;
+}
+
+.dash-cards.a {
+    background: #5C2682;
+}
+
+.dash-cards.a .inner {
+    background: url('../../../assets/img/card-1.png');
+    min-height: 138px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.dash-cards.b {
+    background: #1685D8;
+}
+
+.dash-cards.b .inner {
+    background: url('../../../assets/img/card-2.png');
+    min-height: 138px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.dash-cards.c {
+    background: #10B35A;
+}
+
+.dash-cards.c .inner {
+    background: url('../../../assets/img/card-3.png');
+    min-height: 138px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+
+.small-cards {
+    background: #FFFFFF;
+    border: 0.2px solid #5C2682;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px rgba(107, 54, 143, 0.04);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.earn-card {
+    background: url('../../../assets/img/earn-mask.png');
+    background-size: cover;
+    box-shadow: 0px 4px 15px rgba(107, 54, 143, 0.04);
+    border-radius: 5px;
+}
+.earn-card .inner{
+    min-height: 75px;
+    background: rgb(163, 41, 250, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+}

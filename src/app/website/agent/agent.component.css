@@ -1,0 +1,20 @@
+
+#gethelp {
+    background-color: rgba(205, 159, 237, 0.05);
+}
+
+#gethelp .inner {
+    background: url("../../../assets/img/getbg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: 40%; */
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+#abouthome{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background: rgb(205, 159, 237, 0.05);
+}

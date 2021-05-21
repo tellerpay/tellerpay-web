@@ -7,7 +7,9 @@ body {
     padding: 0;
     margin: 0;
 }
-
+.tx-u{
+    text-decoration: underline;
+}
 .fc-purple {
     color: #5C2682;
 }
@@ -18,6 +20,9 @@ body {
 
 .fc-purple-2 {
     color: #2D0649;
+}
+.fc-purple-3{
+    color: #CD9FED;
 }
 
 .fc-grey {
@@ -34,6 +39,10 @@ body {
 
 .fw-7 {
     font-weight: 700;
+}
+
+.fw-9 {
+    font-weight: 900;
 }
 
 .fs-10 {
@@ -93,7 +102,8 @@ body {
 
 
 
-.btn-purple {
+.btn-purple,
+.btn-purple-sm {
     background: #5C2682;
     border-radius: 5px;
     height: 58px;
@@ -103,12 +113,20 @@ body {
     line-height: 24px;
 }
 
-.btn-purple:hover {
+.btn-purple:hover,
+.btn-purple-sm:hover {
     transition: .3s ease-in-out;
     border: 1.5px solid #5C2682;
     color: #5C2682;
     background: transparent;
     box-shadow: inset 9.5em 0 0 0 transparent;
+}
+
+.btn-purple-sm {
+    height: 39px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .btn-out-purple {
@@ -193,11 +211,13 @@ input.form-control.login-form::placeholder,
 .input-group.login-form input.form-control::placeholder {
     color: #DDE2E5;
 }
-input.form-control.login-form:focus{
+
+input.form-control.login-form:focus {
     transition: .3s ease-in-out;
     box-shadow: none;
     border: 1px solid #2D0649;
 }
+
 .input-group.login-form input.form-control {
     border: none;
     height: 54px;
