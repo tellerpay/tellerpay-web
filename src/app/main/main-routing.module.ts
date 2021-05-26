@@ -6,8 +6,10 @@ import { MainComponent } from './main.component';
 const routes: Routes = [
   {
     path: '', component: MainComponent, children: [
-      { path: '', component: DashboardComponent },
-      { path: 'home', component: DashboardComponent }
+      { path: '', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
+      { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
+      { path: 'save', loadChildren: () => import('./tellersave/tellersave.module').then(m => m.TellersaveModule) },
+      { path: 'cards', loadChildren: () => import('./cards/cards.module').then(m => m.CardsModule) },
     ]
   }
 ];

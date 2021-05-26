@@ -7,9 +7,11 @@ body {
     padding: 0;
     margin: 0;
 }
-.tx-u{
+
+.tx-u {
     text-decoration: underline;
 }
+
 .fc-purple {
     color: #5C2682;
 }
@@ -21,12 +23,17 @@ body {
 .fc-purple-2 {
     color: #2D0649;
 }
-.fc-purple-3{
+
+.fc-purple-3 {
     color: #CD9FED;
 }
 
 .fc-grey {
     color: #80718A;
+}
+
+.fc-grey-1 {
+    color: #bdbdbd;
 }
 
 .ff-r {
@@ -53,6 +60,11 @@ body {
 .fc-12 {
     font-size: 12px;
     line-height: 15px;
+}
+
+.fc-14 {
+    font-size: 14px;
+    line-height: 124.00%;
 }
 
 .fs-18 {
@@ -145,11 +157,53 @@ body {
     color: #fff;
 }
 
+.btn-grey {
+    background: rgb(92, 38, 130, 0.1);
+    border-radius: 5px;
+    height: 58px;
+    color: #5C2682;
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.btn-grey.sm {
+    height: 39px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.btn-grey:hover,
+.btn-pay:hover {
+    transition: .3s ease-in-out;
+    box-shadow: inset 9.5em 0 0 0 transparent;
+}
+
+.btn-pay {
+    background: #10B35A;
+    color: #fff;
+    border-radius: 2px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 124.5%;
+    height: 24px;
+}
+
 .owl-carousel .owl-item img {
     display: block;
     width: unset !important;
 }
 
+
+/* divs  */
+.white-rectangle {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+}
 
 
 /* login design  */
@@ -283,3 +337,5 @@ input.form-control.login-form:focus {
 @media(max-width: 1240px) {}
 
 @media(max-width: 1440px) {}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
