@@ -1,341 +1,379 @@
 @font-face {
-    src: url('assets/fonts/lovely home/Lovely Home 400.ttf');
-    font-family: lovely;
+  src: url("assets/fonts/lovely home/Lovely Home 400.ttf");
+  font-family: lovely;
 }
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .tx-u {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .fc-purple {
-    color: #5C2682;
+  color: #5c2682;
 }
 
 .fc-purple-1 {
-    color: #80718A;
+  color: #80718a;
 }
 
 .fc-purple-2 {
-    color: #2D0649;
+  color: #2d0649;
 }
 
 .fc-purple-3 {
-    color: #CD9FED;
+  color: #cd9fed;
 }
 
 .fc-grey {
-    color: #80718A;
+  color: #80718a;
 }
 
 .fc-grey-1 {
-    color: #bdbdbd;
+  color: #bdbdbd;
 }
 
 .ff-r {
-    font-family: "Red Hat Display";
+  font-family: "Red Hat Display";
 }
 
 .ff-l {
-    font-family: lovely;
+  font-family: lovely;
 }
 
 .fw-7 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .fw-9 {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .fs-10 {
-    font-size: 10px;
-    line-height: 124.5%;
+  font-size: 10px;
+  line-height: 124.5%;
 }
 
 .fc-12 {
-    font-size: 12px;
-    line-height: 15px;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .fc-14 {
-    font-size: 14px;
-    line-height: 124.00%;
+  font-size: 14px;
+  line-height: 124%;
 }
 
 .fs-18 {
-    font-size: 18px;
-    line-height: 24px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .fs-20 {
-    font-size: 20px;
-    line-height: 124.5%;
+  font-size: 20px;
+  line-height: 124.5%;
 }
-
+.fs-22 {
+  font-size: 22px;
+  line-height: 30px;
+}
 .fs-24 {
-    font-size: 24px;
-    line-height: 32px;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .fs-25 {
-    font-size: 25.92px;
-    line-height: 124.5%;
+  font-size: 25.92px;
+  line-height: 124.5%;
 }
 
 .fs-30 {
-    font-size: 30px;
-    line-height: 40px;
+  font-size: 30px;
+  line-height: 40px;
 }
 
 .fs-36 {
-    font-size: 36px;
-    line-height: 48px;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 .fs-42 {
-    font-size: 41.9904px;
-    line-height: 124.5%;
+  font-size: 41.9904px;
+  line-height: 124.5%;
 }
 
 .fs-48 {
-    font-size: 48px;
-    line-height: 64px;
+  font-size: 48px;
+  line-height: 64px;
 }
 
 .fs-60 {
-    font-size: 60px;
-    line-height: 79px;
+  font-size: 60px;
+  line-height: 79px;
+}
+.fs-68 {
+  font-size: 68.0238px;
+  line-height: 124.5%;
 }
 
-
+.ls-2 {
+  letter-spacing: 0.22em;
+}
 
 .btn-purple,
 .btn-purple-sm {
-    background: #5C2682;
-    border-radius: 5px;
-    height: 58px;
-    color: #fff;
-    font-family: 'Red Hat Display';
-    font-size: 18px;
-    line-height: 24px;
+  background: #6b368f;
+  border-radius: 14px;
+  height: 58px;
+  color: #fff;
+  font-family: "Red Hat Display";
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .btn-purple:hover,
 .btn-purple-sm:hover {
-    transition: .3s ease-in-out;
-    border: 1.5px solid #5C2682;
-    color: #5C2682;
-    background: transparent;
-    box-shadow: inset 9.5em 0 0 0 transparent;
+  transition: 0.3s ease-in-out;
+  border: 1.5px solid #5c2682;
+  color: #5c2682;
+  background: transparent;
+  box-shadow: inset 9.5em 0 0 0 transparent;
 }
-
+.btn-white {
+  background: #ffffff;
+  border-radius: 14px;
+  height: 58px;
+  font-family: "Red Hat Display";
+  font-size: 18px;
+  line-height: 24px;
+}
 .btn-purple-sm {
-    height: 39px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
+  height: 39px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .btn-out-purple {
-    border: 1.5px solid #5C2682;
-    height: 58px;
-    border-radius: 5px;
-    font-family: 'Red Hat Display';
-    font-size: 20px;
-    line-height: 26px;
-    color: #5C2682;
+  border: 1.5px solid #5c2682;
+  height: 58px;
+  border-radius: 5px;
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  line-height: 26px;
+  color: #5c2682;
 }
 
 .btn-out-purple:hover {
-    transition: .3s ease-in-out;
-    background: #5C2682;
-    color: #fff;
+  transition: 0.3s ease-in-out;
+  background: #5c2682;
+  color: #fff;
 }
 
 .btn-grey {
-    background: rgb(92, 38, 130, 0.1);
-    border-radius: 5px;
-    height: 58px;
-    color: #5C2682;
-    font-family: 'Red Hat Display';
-    font-size: 18px;
-    line-height: 24px;
+  background: rgb(92, 38, 130, 0.1);
+  border-radius: 5px;
+  height: 58px;
+  color: #5c2682;
+  font-family: "Red Hat Display";
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .btn-grey.sm {
-    height: 39px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
+  height: 39px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .btn-grey:hover,
 .btn-pay:hover {
-    transition: .3s ease-in-out;
-    box-shadow: inset 9.5em 0 0 0 transparent;
+  transition: 0.3s ease-in-out;
+  box-shadow: inset 9.5em 0 0 0 transparent;
 }
 
 .btn-pay {
-    background: #10B35A;
-    color: #fff;
-    border-radius: 2px;
-    font-family: "Red Hat Display";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 124.5%;
-    height: 24px;
+  background: #10b35a;
+  color: #fff;
+  border-radius: 2px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 124.5%;
+  height: 24px;
 }
 
 .owl-carousel .owl-item img {
-    display: block;
-    width: unset !important;
+  display: block;
+  width: unset !important;
 }
-
 
 /* divs  */
 .white-rectangle {
-    background: #FFFFFF;
-    border-radius: 8px;
-    padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
 }
-
 
 /* login design  */
 .purple-container {
-    background: #6B368F;
-    height: 100vh;
-    padding: 3em;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    /* align-items: center; */
+  background: #6b368f;
+  height: 100vh;
+  padding: 3em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .login-container {
-    height: 100vh;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-container .inner {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(92, 38, 130, 0.04);
-    border-radius: 6px;
-    padding: 3em;
-    width: 70%;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(92, 38, 130, 0.04);
+  border-radius: 6px;
+  padding: 3em;
+  width: 70%;
 }
 
 .reset-container {
-    width: 100%;
-    height: 82vh;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+  width: 100%;
+  height: 82vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 .reset-container .inner {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(92, 38, 130, 0.04);
-    border-radius: 6px;
-    padding: 3em;
-    width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(92, 38, 130, 0.04);
+  border-radius: 6px;
+  padding: 3em;
+  width: 100%;
 }
 
 input.form-control.login-form,
 .input-group.login-form {
-    background: #FFFFFF;
-    border: 1px solid #DDE2E5;
-    height: 56px;
-    border-radius: 5px;
-    font-family: "Red Hat Display";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #dde2e5;
+  height: 56px;
+  border-radius: 5px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 input.form-control.login-form::placeholder,
 .input-group.login-form input.form-control::placeholder {
-    color: #DDE2E5;
+  color: #dde2e5;
 }
 
 input.form-control.login-form:focus {
-    transition: .3s ease-in-out;
-    box-shadow: none;
-    border: 1px solid #2D0649;
+  transition: 0.3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid #2d0649;
 }
 
 .input-group.login-form input.form-control {
-    border: none;
-    height: 54px;
-    font-family: "Red Hat Display";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+  border: none;
+  height: 54px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .input-group.login-form input.form-control:focus {
-    border: none;
-    box-shadow: none;
+  border: none;
+  box-shadow: none;
 }
 
 .input-group.login-form i {
-    color: #CACCCD;
-    font-size: 16px;
-    margin-top: 18px;
+  color: #cacccd;
+  font-size: 16px;
+  margin-top: 18px;
 }
 
 /* login design  */
 
-@media(max-width: 468px) {
+@media (max-width: 468px) {
+  .fs-18 {
+    font-size: 14px;
+    line-height: 16px;
+  }
 
-    .fs-18 {
-        font-size: 14px;
-        line-height: 16px;
-    }
+  .fs-20 {
+    font-size: 14px;
+    line-height: 124.5%;
+  }
+  .fs-22 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .fs-24 {
+    font-size: 15px;
+    line-height: 20px;
+  }
 
-    .fs-24 {
-        font-size: 15px;
-        line-height: 20px;
-    }
+  .fs-25 {
+    font-size: 15.92px;
+    line-height: 124.5%;
+  }
+  .fs-30 {
+    font-size: 18px;
+    line-height: 22px;
+  }
 
-    .fs-30 {
-        font-size: 18px;
-        line-height: 22px;
-    }
+  .fs-36 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 
-    .fs-36 {
-        font-size: 20px;
-        line-height: 24px;
-    }
+  .fs-42 {
+    font-size: 24px;
+    line-height: 124.5%;
+  }
 
-    .fs-42 {
-        font-size: 24px;
-        line-height: 124.5%;
-    }
+  .fs-48 {
+    font-size: 28px;
+    line-height: 32px;
+  }
 
-    .fs-48 {
-        font-size: 28px;
-        line-height: 32px;
-    }
-
-    .fs-60 {
-        font-size: 30px;
-        line-height: 37px;
-    }
+  .fs-60 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .fs-68 {
+    font-size: 35px;
+    line-height: 42px;
+  }
 }
 
-@media(max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
-@media(max-width: 1240px) {}
+@media (max-width: 1240px) {
+}
 
-@media(max-width: 1440px) {}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@media (max-width: 1440px) {
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

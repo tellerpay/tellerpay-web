@@ -1,94 +1,129 @@
+.container {
+  min-width: 85vw;
+}
 #first {
-    background: rgba(92, 38, 130, 0.05);
-    min-height: 85vh;
-    width: 100%;
+  background: url("../../../assets/img/phone-background.png");
+  background-size: 100% 100%;
+  min-height: 85vh;
+  width: 100%;
 }
 
 .text {
-    height: 85vh;
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    /* align-items: center; */
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .picture {
-    background: url('../../../assets/img/phone2.png');
+  display: none;
+  background: url("../../../assets/img/phone2.png");
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+#agent,
+#financial,
+#agent-new {
+  min-height: 100vh;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#agent {
+  background: url("../../../assets/img/agent-does.png");
+  background-repeat: no-repeat !important;
+  background-size: 50%;
+  background-position: center right;
+  display: flex;
+  align-items: center;
+}
+
+#choose {
+  background: rgba(205, 159, 237, 0.1);
+  min-height: 90vh;
+}
+
+#download {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: rgba(205, 159, 237, 0.1);
+}
+
+@media (max-width: 430px) {
+  #agent {
+    min-height: 70vh;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: url("../../../assets/img/agent-does.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top right;
+    display: flex;
+    align-items: center;
+  }
+  #agent p {
+    text-align: center;
+  }
+  .picture {
+    background: url("../../../assets/img/phone2.png");
     background-repeat: no-repeat;
     height: 85vh;
     width: 100%;
     background-size: contain;
     background-position: bottom right;
+  }
+  #first {
+    background: none;
+    background-size: 100% 100%;
+    min-height: 85vh;
+    width: 100%;
+  }
 }
-
-#agent,
-#financial {
-    min-height: 100vh;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-#choose {
-    background: rgba(205, 159, 237, 0.1);
-    min-height: 90vh;
-}
-
-#download {
-    padding-top: 3em;
-    padding-bottom: 3em;
-    background: rgba(205, 159, 237, 0.1);
-}
-
-@media(max-width: 430px) {
-    #agent p {
-        text-align: center;
-    }
-}
-
-
 
 .step {
+  padding: 10px;
 
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-    background-color: cream;
+  background-color: cream;
 }
 
 .v-stepper {
-    position: relative;
-    /*   visibility: visible; */
+  position: relative;
+  /*   visibility: visible; */
 }
 
-
 .step .circle {
-    background:rgba(92, 38, 130, 0.9);
-    box-shadow: 0 0 0 3px rgba(92, 38, 130, 0.5);
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
+  background: rgba(92, 38, 130, 0.9);
+  box-shadow: 0 0 0 3px rgba(92, 38, 130, 0.5);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
 }
 
 .step .line {
-    top: 20px;
-    left: 9px;
-    height: 100%;
-    position: absolute;
-    border-left: 2px solid rgba(92, 38, 130, 0.5);
+  top: 20px;
+  left: 9px;
+  height: 100%;
+  position: absolute;
+  border-left: 2px solid rgba(92, 38, 130, 0.5);
 }
 
-
 .step:last-child .line {
-    border-left: 3px solid white;
-    z-index: -1;
+  border-left: 3px solid white;
+  z-index: -1;
 }
 
 .content {
-    margin-left: 20px;
-    display: inline-block;
+  margin-left: 20px;
+  display: inline-block;
 }

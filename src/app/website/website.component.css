@@ -1,94 +1,110 @@
 .container {
-    min-width: 90vw;
+  min-width: 90vw;
 }
 
 #footer {
-    background: url("../../assets/img/footer.png");
+  background: url("../../assets/img/footer.png");
 }
 
 .footer-line {
-    border-top: 1px solid #8D8D8D;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  border-top: 1px solid #8d8d8d;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-
-
 
 nav {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 50px rgba(155, 81, 224, 0.03);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(155, 81, 224, 0.03);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
+.dropdown-menu {
+  border: 0.2px solid #6b368f;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.01);
+  border-radius: 5px;
+  font-family: "Red Hat Display";
+}
+.dropdown-menu .a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #5c2682;
+}
+.dropdown-menu .b {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+  color: #80718a;
+}
 .navbar-brand img {
-    height: 42px;
+  height: 42px;
 }
 
 .btn-login {
-    border: 1.5px solid #5C2682;
-    height: 58px;
-    border-radius: 5px;
-    font-family: 'Red Hat Display';
-    font-size: 20px;
-    line-height: 26px;
-    color: #5C2682;
+  border: 1.5px solid #5c2682;
+  height: 58px;
+  border-radius: 5px;
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  line-height: 26px;
+  color: #5c2682;
 }
 
 .btn-login:hover {
-    transition: .3s ease-in-out;
-    background: #5C2682;
-    color: #fff;
+  transition: 0.3s ease-in-out;
+  background: #5c2682;
+  color: #fff;
 }
 
 .btn-signin {
-    background: #5C2682;
-    border-radius: 5px;
-    height: 58px;
-    color: #fff;
-    font-family: 'Red Hat Display';
-    font-size: 18px;
-    line-height: 24px;
+  background: #5c2682;
+  border-radius: 5px;
+  height: 58px;
+  color: #fff;
+  font-family: "Red Hat Display";
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .btn-signin:hover {
-    transition: .3s ease-in-out;
-    border: 1.5px solid #5C2682;
-    color: #5C2682;
-    background: #fff;
+  transition: 0.3s ease-in-out;
+  border: 1.5px solid #5c2682;
+  color: #5c2682;
+  background: #fff;
 }
 
 li.nav-item a {
-    font-family: 'Red Hat Display';
-    font-size: 20px;
-    line-height: 26px;
-    color: #2D0649;
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  line-height: 26px;
+  color: #2d0649;
 }
 
 .navbar-light .navbar-toggler {
-    border: none !important;
+  border: none !important;
 }
 
-@media(max-width: 1024px) {
-    .navbar-brand img {
-        height: 35px;
-    }
-    
-    nav {
-        padding-top: .6rem;
-        padding-bottom: .6rem;
-    }
+@media (max-width: 1024px) {
+  .navbar-brand img {
+    height: 35px;
+  }
 
-    li.nav-item a {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  nav {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
 
-    .btn-login,
-    .btn-signin {
-        height: 48px;
-        font-size: 14px;
-        line-height: 18px;
-    }
+  li.nav-item a {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
+  .btn-login,
+  .btn-signin {
+    height: 48px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

@@ -9,10 +9,11 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AgentComponent } from './agent/agent.component';
+import { DigitalBankingComponent } from './digital-banking/digital-banking.component';
 
 
 @NgModule({
-  declarations: [WebsiteComponent, LandingPageComponent, HomeComponent, AboutComponent, AgentComponent],
+  declarations: [WebsiteComponent, LandingPageComponent, HomeComponent, AboutComponent, AgentComponent, DigitalBankingComponent],
   imports: [
     CommonModule,
     WebsiteRoutingModule,

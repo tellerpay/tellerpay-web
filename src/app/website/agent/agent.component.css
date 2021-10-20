@@ -13,8 +13,28 @@
     align-items: center;
 }
 #abouthome{
+    background: url('../../../assets/img/aboutus-bg.png');
     height: 85vh;
     display: flex;
     align-items: center;
-    background: rgb(205, 159, 237, 0.05);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+#amazing{
+    background: rgba(92, 38, 130, 1);
+}
+#amazing .inner{
+    background: url('../../../assets/img/amazing-team.png');
+    min-height: 450px;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 430px) {
+    #amazing .inner{
+        background: none;
+    }
 }

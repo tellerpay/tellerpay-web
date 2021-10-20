@@ -1,109 +1,187 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="/">
-            <img src="assets/img/svg/logo.svg" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="assets/img/svg/menuicon.svg" alt="">
-        </button>
- 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto">
-                <li class="nav-item active mx-lg-3">
-                    <a class="nav-link" href="javascript:void(0)" [routerLink]="['/aboutus']">About Us</a>
-                </li>
-                <li class="nav-item mx-lg-3">
-                    <a class="nav-link" href="javascript:void(0)">FAQ</a>
-                </li>
-                <li class="nav-item mx-lg-3">
-                    <a class="nav-link" href="#" [routerLink]="['/becomeanagent']">Become an agent</a>
-                </li>
-                <li class="nav-item mx-lg-3">   
-                    <a class="nav-link" href="javascript:void(0)">Get loan</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="assets/img/svg/logo.svg" alt="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <img src="assets/img/svg/menuicon.svg" alt="" />
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown mx-lg-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item mb-3" href="javascript:void(0)" [routerLink]="['/agency-banking']">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <img src="assets/img/agency-banking.svg" alt="">
+                </div>
+                <div>
+                  <div class="a">Agency Banking</div>
+                  <div class="b">Learn about our  Agency Banking</div>
+                </div>
+              </div>
+            </a>
+            <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/digital-banking']">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <img src="assets/img/digital-banking.svg" alt="">
+                </div>
+                <div>
+                  <div class="a">Digital Banking</div>
+                  <div class="b">Learn about our  Digital Banking</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item active mx-lg-3">
+          <a
+            class="nav-link"
+            href="javascript:void(0)"
+            [routerLink]="['/aboutus']"
+            >About Us</a
+          >
+        </li>
+        <li class="nav-item mx-lg-3">
+          <a class="nav-link" href="javascript:void(0)">FAQ</a>
+        </li>
+        <li class="nav-item mx-lg-3">
+          <a class="nav-link" href="#" [routerLink]="['/becomeanagent']"
+            >Become an agent</a
+          >
+        </li>
+        <li class="nav-item mx-lg-3">
+          <a class="nav-link" href="javascript:void(0)">Get loan</a>
+        </li>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
                 <a href="javascript:void(0)" [routerLink]="['/login']">
                     <button class="btn btn-login my-2 my-sm-0 mr-sm-3 px-5 mr-2">Login</button>
                 </a>
                 <a href="javascript:void(0)" [routerLink]="['/signup']">
                     <button class="btn btn-signin my-2 my-sm-0">Create account</button>
                 </a>
-            </form>
-        </div>
+            </form> -->
     </div>
+  </div>
 </nav>
 <router-outlet></router-outlet>
-<div id="footer">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-3 mb-3 order-lg-1 order-6">
-                <p class="">
-                    <img src="assets/img/svg/logo.svg" alt="">
-                </p>
-                <div class="d-flex mt-5">
-                    <div class="mr-3">
-                        <a href=""><img src="assets/img/svg/instagram.svg" alt=""></a>
-                    </div>
-                    <div class="mr-3">
-                        <a href=""><img src="assets/img/svg/twitter.svg" alt=""></a>
-                    </div>
-                    <div>
-                        <a href=""><img src="assets/img/svg/facebook.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 order-lg-2 order-1"></div>
-            <div class="col-lg-2 mb-3 order-lg-3 order-2">
-                <p class="ff-r fs-24 fc-purple fw-7">Company</p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">About us</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">Press</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">Careers</a>
-                </p>
-            </div>
-            
-            <div class="col-lg-2 mb-3 order-lg-4 order-3">
-                <p class="ff-r fs-24 fc-purple fw-7">Products</p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">TellerSave</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">TellerAdvance</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">TellerSpokes</a>
-                </p>
-            </div>
-            <div class="col-lg-2 mb-3 order-lg-5 order-4">
-                <p class="ff-r fs-24 fc-purple fw-7">Resources</p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">Terms & Conditions</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">FAQ</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">Blog</a>
-                </p>
-            </div>
-            <div class="col-lg-2 mb-3 order-lg-6 order-5">
-                <p class="ff-r fs-24 fc-purple fw-7">Contact us</p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">+234 802 462 2019</a>
-                </p>
-                <p>
-                    <a href="#" class="fc-purple fs-18 ff-r">Info@tellerpay.ng</a>
-                </p>
-            </div>
-            <div class="col-lg-12 d-none d-lg-block">
-                <div class="footer-line"></div>
-            </div>
+<section id="news">
+  <div class="container py-5">
+    <div class="row py-lg-5">
+      <div class="col-lg-10 m-auto">
+        <p class="fs-25 fc-purple ff-r ls-2 fw-7 text-center text-uppercase">
+          We are in the news
+        </p>
+      </div>
+      <div class="col-lg-12">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <p class="text-center">
+              <img class="img-fluid" src="assets/img/image 2.png" alt="" />
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p class="text-center">
+              <img class="img-fluid" src="assets/img/image 3.png" alt="" />
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-center">
+              <img class="img-fluid" src="assets/img/image 4.png" alt="" />
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p class="text-center">
+              <img class="img-fluid" src="assets/img/image 5.png" alt="" />
+            </p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</section>
+<div id="footer">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 mb-3 order-lg-1 order-6">
+        <p class="">
+          <img src="assets/img/svg/logo.svg" alt="" />
+        </p>
+        <div class="d-flex mt-5">
+          <div class="mr-3">
+            <a href=""><img src="assets/img/svg/instagram.svg" alt="" /></a>
+          </div>
+          <div class="mr-3">
+            <a href=""><img src="assets/img/svg/twitter.svg" alt="" /></a>
+          </div>
+          <div>
+            <a href=""><img src="assets/img/svg/facebook.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1 order-lg-2 order-1"></div>
+      <div class="col-lg-2 mb-3 order-lg-3 order-2">
+        <p class="ff-r fs-24 fc-purple fw-7">Company</p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">About us</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">Press</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">Careers</a>
+        </p>
+      </div>
+
+      <div class="col-lg-2 mb-3 order-lg-4 order-3">
+        <p class="ff-r fs-24 fc-purple fw-7">Products</p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">TellerSave</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">TellerAdvance</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">TellerSpokes</a>
+        </p>
+      </div>
+      <div class="col-lg-2 mb-3 order-lg-5 order-4">
+        <p class="ff-r fs-24 fc-purple fw-7">Resources</p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">Terms & Conditions</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">FAQ</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">Blog</a>
+        </p>
+      </div>
+      <div class="col-lg-2 mb-3 order-lg-6 order-5">
+        <p class="ff-r fs-24 fc-purple fw-7">Contact us</p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">+234 802 462 2019</a>
+        </p>
+        <p>
+          <a href="#" class="fc-purple fs-18 ff-r">Info@tellerpay.ng</a>
+        </p>
+      </div>
+      <div class="col-lg-12 d-none d-lg-block">
+        <div class="footer-line"></div>
+      </div>
+    </div>
+  </div>
 </div>
