@@ -38,10 +38,18 @@ nav {
   letter-spacing: -0.025em;
   color: #80718a;
 }
+nav .dropdown-menu {
+  display: none;
+}
+nav li.nav-item:hover .dropdown-menu {
+  display: block;
+}
 .navbar-brand img {
   height: 42px;
 }
-
+.dropdown-toggle::after {
+  display: none;
+}
 .btn-login {
   border: 1.5px solid #5c2682;
   height: 58px;

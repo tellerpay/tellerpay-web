@@ -3,12 +3,14 @@
 }
 #first {
   background: url("../../../assets/img/phone-background2.png");
-  background-size: 100% 100%;
-  min-height: 85vh;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  min-height: 95vh;
   width: 100%;
 }
 .text {
-  height: 85vh;
+  height: 95vh;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -97,6 +99,12 @@
   padding: 90px;
 }
 @media (max-width: 430px) {
+  .download {
+    padding: 45px;
+  }
+  .text {
+    height: 60vh;
+  }
   .picture {
     background: url("../../../assets/img/phone2.png");
     background-repeat: no-repeat;
@@ -106,15 +114,50 @@
     background-position: bottom right;
   }
   #first {
-    background: none;
-    background-size: 100% 100%;
-    min-height: 85vh;
+    background: url("../../../assets/img/phone-background2-small.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 100vh;
     width: 100%;
   }
+  #first p {
+    text-align: center;
+  }
   #get-started .inner {
-      background-position: center;
+    background-position: center;
   }
   #get-started .txt {
     padding: 40px;
+  }
+  #send-and-receive .a {
+    background: url("../../../assets/img/send-and-receive-small.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    padding: 450px 70px 30px 70px;
+  }
+  #send-and-receive .a p, #send-and-receive .b p, #send-and-receive .c p{
+    text-align: center;
+  }
+  #send-and-receive .b {
+    /* background: url('../../../assets/img/send-and-receive.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+    padding: 450px 70px 30px 70px;
+  }
+  #send-and-receive .c {
+    background: url("../../../assets/img/complete-transactions-small.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    padding: 50px 30px 350px 30px;
   }
 }

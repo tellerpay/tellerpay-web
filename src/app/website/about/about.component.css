@@ -3,13 +3,15 @@
 }
 #first {
   background: url("../../../assets/img/phone-background.png");
-  background-size: 100% 100%;
-  min-height: 85vh;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  min-height: 95vh;
   width: 100%;
 }
 
 .text {
-  height: 85vh;
+  height: 95vh;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -63,13 +65,11 @@
     background: url("../../../assets/img/agent-does.png");
     background-repeat: no-repeat;
     background-size: 90%;
-    background-position: top right;
+    background-position: bottom right;
     display: flex;
     align-items: center;
   }
-  #agent p {
-    text-align: center;
-  }
+
   .picture {
     background: url("../../../assets/img/phone2.png");
     background-repeat: no-repeat;
@@ -79,10 +79,27 @@
     background-position: bottom right;
   }
   #first {
-    background: none;
-    background-size: 100% 100%;
-    min-height: 85vh;
+    background: url("../../../assets/img/phone-background-small.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 100vh;
     width: 100%;
+  }
+  #first p {
+    text-align: center;
+  }
+  .text {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  #choose {
+    background: rgba(205, 159, 237, 0.1);
+    min-height: 90vh;
+    padding: 54px 30px;
   }
 }
 

@@ -315,7 +315,7 @@ input.form-control.login-form:focus {
   }
 
   .fs-20 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 124.5%;
   }
   .fs-22 {
@@ -347,8 +347,8 @@ input.form-control.login-form:focus {
   }
 
   .fs-48 {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 115%;
   }
 
   .fs-60 {
@@ -358,6 +358,13 @@ input.form-control.login-form:focus {
   .fs-68 {
     font-size: 35px;
     line-height: 42px;
+  }
+  .btn-white,
+  .btn-purple {
+    border-radius: 7px;
+    height: 33px;
+    font-size: 10px;
+    line-height: 13px;
   }
 }
 

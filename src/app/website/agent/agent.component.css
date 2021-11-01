@@ -34,7 +34,26 @@
 }
 
 @media(max-width: 430px) {
+    #abouthome{
+        background: url('../../../assets/img/aboutus-bg-small.png');
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
     #amazing .inner{
         background: none;
+        padding: 41px 37px;
+    }
+    #amazing .amaze{
+        background: url('../../../assets/img/amazing-team-small.png');
+        min-height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
     }
 }
