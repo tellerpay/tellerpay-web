@@ -10,15 +10,18 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AgentComponent } from './agent/agent.component';
 import { DigitalBankingComponent } from './digital-banking/digital-banking.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [WebsiteComponent, LandingPageComponent, HomeComponent, AboutComponent, AgentComponent, DigitalBankingComponent],
+  declarations: [WebsiteComponent, LandingPageComponent, HomeComponent, AboutComponent, AgentComponent, DigitalBankingComponent, FaqsComponent],
   imports: [
     CommonModule,
     WebsiteRoutingModule,
     SharedModule,
-    CarouselModule
+    CarouselModule,
+    FormsModule
   ]
 })
 export class WebsiteModule { }

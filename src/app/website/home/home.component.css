@@ -77,7 +77,6 @@
 }
 
 #tellersave {
-    background: url("../../../assets/img/girl.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 43%;
@@ -93,7 +92,6 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('../../../assets/img/tellervest.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: contain;
@@ -241,7 +239,6 @@
     }
 
     #tellersave {
-        background: url('../../../assets/img/tellersavesm.png');
         background-repeat: no-repeat;
         background-position: top left;
         background-size: 100%;

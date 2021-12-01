@@ -1,0 +1,111 @@
+.container {
+  min-width: 85vw;
+}
+#abouthome {
+  background: url("../../../assets/img/aboutus-bg.png");
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.accordion {
+  border: none;
+}
+.card {
+  background: #fafafa;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 15px !important;
+  margin-bottom: 40px;
+}
+.card-header {
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: none;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 124.5%;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+}
+.card-header button {
+  color: #6b368f;
+  text-decoration: none;
+}
+.card-body {
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  line-height: 124.5%;
+  color: #80718a;
+  padding: 40px 30px;
+}
+.faqs {
+  margin-top: 100px;
+}
+.search.input-group {
+  background: #ffffff;
+  border: 0.5px solid #600c9c;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 77px;
+}
+.search.input-group input.form-control {
+  border: none;
+  height: 75px;
+  font-size: 18px;
+  line-height: 144.5%;
+}
+.search.input-group input.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+::placeholder {
+  color: #c0c0c0;
+}
+.search .btn {
+  background: #6b368f;
+  border-radius: 14px;
+  height: 58px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 7px;
+  margin-right: 7px;
+  min-width: 160px;
+}
+@media (max-width: 768px) {
+  .search .btn {
+    margin-top: 1px;
+    margin-right: 1px;
+    height: 38px;
+    min-width: 100px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .search.input-group input.form-control {
+    height: 40px;
+    font-size: 13px;
+    line-height: 144.5%;
+  }
+  .search.input-group {
+    border-radius: 6px;
+    height: 42px;
+  }
+  .card-body {
+    font-size: 14px;
+    line-height: 124.5%;
+    padding: 20px 30px;
+  }
+  .card-header {
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 124.5%;
+  }
+}

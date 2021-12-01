@@ -45,10 +45,10 @@
   padding: 100px;
 }
 #send-and-receive .b {
-  /* background: url('../../../assets/img/send-and-receive.png'); */
-  background-size: cover;
+  background: url('../../../assets/img/you-dont-need-atm.png');
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top right;
   display: flex;
   align-items: center;
   padding: 100px;
@@ -143,13 +143,13 @@
     text-align: center;
   }
   #send-and-receive .b {
-    /* background: url('../../../assets/img/send-and-receive.png'); */
-    background-size: cover;
+    background: url('../../../assets/img/you-dont-need-atm-small.png');
+    background-size: 120%;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top center;
     display: flex;
     align-items: center;
-    padding: 450px 70px 30px 70px;
+    padding: 350px 70px 30px 70px;
   }
   #send-and-receive .c {
     background: url("../../../assets/img/complete-transactions-small.png");

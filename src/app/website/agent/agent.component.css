@@ -1,59 +1,79 @@
-
 #gethelp {
-    background-color: rgba(205, 159, 237, 0.05);
+  background-color: rgba(205, 159, 237, 0.05);
 }
 
 #gethelp .inner {
-    background: url("../../../assets/img/getbg.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    /* background-size: 40%; */
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
+  background: url("../../../assets/img/getbg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* background-size: 40%; */
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
 }
-#abouthome{
-    background: url('../../../assets/img/aboutus-bg.png');
+#abouthome {
+  background: url("../../../assets/img/aboutus-bg.png");
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+#amazing {
+  background: rgba(92, 38, 130, 1);
+}
+#amazing .inner {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.amaze {
+  display: flex;
+  flex-flow: row;
+  justify-content: end;
+}
+
+.slider {
+  position: relative;
+}
+.wrap,
+.wrap1,
+.wrap2 {
+  position: relative;
+  width: 150px;
+  height: 450px;
+  margin: auto;
+  overflow: hidden;
+  margin-right: 8px;
+}
+.wrap img,
+.wrap1 img,
+.wrap2 img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+@media (max-width: 430px) {
+  #abouthome {
+    background: url("../../../assets/img/aboutus-bg-small.png");
     height: 85vh;
     display: flex;
     align-items: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
-}
-
-#amazing{
-    background: rgba(92, 38, 130, 1);
-}
-#amazing .inner{
-    background: url('../../../assets/img/amazing-team.png');
-    min-height: 450px;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-}
-
-@media(max-width: 430px) {
-    #abouthome{
-        background: url('../../../assets/img/aboutus-bg-small.png');
-        height: 85vh;
-        display: flex;
-        align-items: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
-    #amazing .inner{
-        background: none;
-        padding: 41px 37px;
-    }
-    #amazing .amaze{
-        background: url('../../../assets/img/amazing-team-small.png');
-        min-height: 300px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
-    }
+    background-position: top center;
+  }
+  #amazing .inner {
+    background: none;
+    padding: 41px 37px;
+  }
+  #amazing .amaze {
+    min-height: 300px;
+    margin-top: 20px;
+  }
 }

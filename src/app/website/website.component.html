@@ -22,17 +22,6 @@
             Products
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item mb-3" href="javascript:void(0)" [routerLink]="['/agency-banking']">
-              <div class="d-flex align-items-center">
-                <div class="mr-2">
-                  <img src="assets/img/agency-banking.svg" alt="">
-                </div>
-                <div>
-                  <div class="a">Agency Banking</div>
-                  <div class="b">Learn about our  Agency Banking</div>
-                </div>
-              </div>
-            </a>
             <a class="dropdown-item" href="javascript:void(0)" [routerLink]="['/digital-banking']">
               <div class="d-flex align-items-center">
                 <div class="mr-2">
@@ -44,6 +33,18 @@
                 </div>
               </div>
             </a>
+            <a class="dropdown-item mb-3" href="javascript:void(0)" [routerLink]="['/agency-banking']">
+              <div class="d-flex align-items-center">
+                <div class="mr-2">
+                  <img src="assets/img/agency-banking.svg" alt="">
+                </div>
+                <div>
+                  <div class="a">Agency Banking</div>
+                  <div class="b">Learn about our  Agency Banking</div>
+                </div>
+              </div>
+            </a>
+            
           </div>
         </li>
         <li class="nav-item active mx-lg-3">
@@ -51,29 +52,17 @@
             class="nav-link"
             href="javascript:void(0)"
             [routerLink]="['/aboutus']"
-            >About Us</a
-          >
+            >About Us
+          </a>
         </li>
         <li class="nav-item mx-lg-3">
-          <a class="nav-link" href="javascript:void(0)">FAQ</a>
+          <a class="nav-link" href="javascript:void(0)" [routerLink]="['/faq']">FAQ</a>
         </li>
         <li class="nav-item mx-lg-3">
-          <a class="nav-link" href="#" [routerLink]="['/becomeanagent']"
-            >Become an agent</a
-          >
-        </li>
-        <li class="nav-item mx-lg-3">
-          <a class="nav-link" href="javascript:void(0)">Get loan</a>
+          <a class="nav-link" href="javascript:void(0)" [routerLink]="['/faqs']">Blog</a>
         </li>
       </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-                <a href="javascript:void(0)" [routerLink]="['/login']">
-                    <button class="btn btn-login my-2 my-sm-0 mr-sm-3 px-5 mr-2">Login</button>
-                </a>
-                <a href="javascript:void(0)" [routerLink]="['/signup']">
-                    <button class="btn btn-signin my-2 my-sm-0">Create account</button>
-                </a>
-            </form> -->
+     
     </div>
   </div>
 </nav>
@@ -122,13 +111,13 @@
         </p>
         <div class="d-flex mt-5">
           <div class="mr-3">
-            <a href=""><img src="assets/img/svg/instagram.svg" alt="" /></a>
+            <a href="https://instagram.com/tellerpayng" target="_blank"><img src="assets/img/svg/instagram.svg" alt="instagram" /></a>
           </div>
           <div class="mr-3">
-            <a href=""><img src="assets/img/svg/twitter.svg" alt="" /></a>
+            <a href="https://twitter.com/tellerpayng/" target="_blank"><img src="assets/img/svg/twitter.svg" alt="twitter" /></a>
           </div>
           <div>
-            <a href=""><img src="assets/img/svg/facebook.svg" alt="" /></a>
+            <a href="https://facebook.com/tellerpayng" target="_blank"><img src="assets/img/svg/facebook.svg" alt="facebook" /></a>
           </div>
         </div>
       </div>
@@ -136,7 +125,7 @@
       <div class="col-lg-2 mb-3 order-lg-3 order-2">
         <p class="ff-r fs-24 fc-purple fw-7">Company</p>
         <p>
-          <a href="#" class="fc-purple fs-18 ff-r">About us</a>
+          <a [routerLink]="['/aboutus']" class="fc-purple fs-18 ff-r">About us</a>
         </p>
         <p>
           <a href="#" class="fc-purple fs-18 ff-r">Press</a>
@@ -149,14 +138,12 @@
       <div class="col-lg-2 mb-3 order-lg-4 order-3">
         <p class="ff-r fs-24 fc-purple fw-7">Products</p>
         <p>
-          <a href="#" class="fc-purple fs-18 ff-r">TellerSave</a>
+          <a [routerLink]="['/digital-banking']" class="fc-purple fs-18 ff-r">Digital Banking</a>
         </p>
         <p>
-          <a href="#" class="fc-purple fs-18 ff-r">TellerAdvance</a>
+          <a [routerLink]="['/agency-banking']" class="fc-purple fs-18 ff-r">Agent Banking</a>
         </p>
-        <p>
-          <a href="#" class="fc-purple fs-18 ff-r">TellerSpokes</a>
-        </p>
+        
       </div>
       <div class="col-lg-2 mb-3 order-lg-5 order-4">
         <p class="ff-r fs-24 fc-purple fw-7">Resources</p>
@@ -164,10 +151,10 @@
           <a href="#" class="fc-purple fs-18 ff-r">Terms & Conditions</a>
         </p>
         <p>
-          <a href="#" class="fc-purple fs-18 ff-r">FAQ</a>
+          <a [routerLink]="['/faq']" class="fc-purple fs-18 ff-r">FAQ</a>
         </p>
         <p>
-          <a href="#" class="fc-purple fs-18 ff-r">Blog</a>
+          <a href="https://medium.com/@tellerpayng" target="_blank" class="fc-purple fs-18 ff-r">Blog</a>
         </p>
       </div>
       <div class="col-lg-2 mb-3 order-lg-6 order-5">
